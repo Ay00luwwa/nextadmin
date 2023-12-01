@@ -1,0 +1,80 @@
+/* Base Colors */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #ecf0f1;
+  --text-color: #34495e;
+  --softer-text-color: #57606f;
+
+  /* Grayscale */
+  --white: #ffffff;
+  --light-gray: #f2f2f2;
+  --medium-gray: #bdc3c7;
+  --dark-gray: #7f8c8d;
+
+  /* Alerts and Status */
+  --success-color: #27ae60;
+  --info-color: #3498db;
+  --warning-color: #f39c12;
+  --danger-color: #e74c3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Header */
+.header {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+/* Buttons */
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+/* Alerts */
+.alert-success {
+  background-color: var(--success-color);
+  color: var(--white);
+}
+
+.alert-info {
+  background-color: var(--info-color);
+  color: var(--white);
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+  color: var(--white);
+}
+
+.alert-danger {
+  background-color: var(--danger-color);
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
