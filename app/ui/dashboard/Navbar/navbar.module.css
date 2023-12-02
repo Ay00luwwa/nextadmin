@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: var(--dark-gray);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  color: var(--softer-text-color);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--light-gray);
+  padding: 10px;
+  border-radius: 10px;
+}
