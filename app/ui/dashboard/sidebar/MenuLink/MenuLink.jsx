@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "./menuLinks.module.css";
+import styles from "./menuLink.module.css";
 
-const menuLinks = ({ item }) => {
+const menuLink = ({ item }) => {
   return (
     <Link href={item.path} className={styles.container}>
       {item.icon}
@@ -10,4 +10,4 @@ const menuLinks = ({ item }) => {
   );
 };
 
-export default menuLinks;
+export default menuLink;

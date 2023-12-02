@@ -78,3 +78,37 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Buttons */
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.button-primary:hover {
+  background-color: #2980b9; /* Change to a different color on hover */
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.button-secondary:hover {
+  background-color: #27ae60; /* Change to a different color on hover */
+}
+
+/* Alerts */
+/* (similar hover styles for alerts can be added if needed) */
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease; /* Add a smooth transition */
+}
+
+a:hover {
+  color: #3498db; /* Change to a different color on hover */
+}
