@@ -9,7 +9,7 @@ const Card = () => {
         <span className={styles.title}>Total Users</span>
         <span className={styles.number}>10.98</span>
         <span className={styles.detail}>
-          <span className={styles.positive}>12%</span> momre than previous week
+          <span className={styles.positive}>12%</span> more than previous week
         </span>
       </div>
     </div>
