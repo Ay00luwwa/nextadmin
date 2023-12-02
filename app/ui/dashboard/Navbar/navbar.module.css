@@ -27,3 +27,14 @@
   padding: 10px;
   border-radius: 10px;
 }
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: var(--softer-text-color);
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
