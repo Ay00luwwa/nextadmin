@@ -9,6 +9,6 @@
 
 .container:hover,
 .active {
-  background-color: var(--background-color);
+  background-color: var(--medium-gray);
   transition: 0.5s;
 }

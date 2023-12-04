@@ -5,18 +5,20 @@ import styles from "../ui/dashboard/dashboard.module.css";
 import Chart from "../ui/dashboard/chart/chart";
 const Dashboard = () => {
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.main}>
-        <div className={styles.cards}>
-          <Card />
-          <Card />
-          <Card />
+    <div className={styles.content}>
+      <div className={styles.wrapper}>
+        <div className={styles.main}>
+          <div className={styles.cards}>
+            <Card />
+            <Card />
+            <Card />
+          </div>
+          <Transactions />
+          <Chart />
         </div>
-        <Transactions />
-        <Chart />
-      </div>
-      <div className={styles.side}>
-        <Rightbar />
+        <div className={styles.side}>
+          <Rightbar />
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  background-color: var(--dark-gray);
+  background-color: var(--light-gray);
   padding: 20px;
   border-radius: 10px;
 }
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background-color: var(--light-gray);
+  background-color: var(--medium-gray);
   padding: 10px;
   border-radius: 10px;
 }
@@ -31,7 +31,7 @@
 .input {
   background-color: transparent;
   border: none;
-  color: var(--softer-text-color);
+  color: var(--white);
 }
 
 .icons {

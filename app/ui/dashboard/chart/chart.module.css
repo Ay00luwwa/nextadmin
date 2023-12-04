@@ -1,6 +1,6 @@
 .container {
   height: 500px;
-  background-color: var(--medium-gray);
+  background-color: var(--light-gray);
   padding: 20px;
   border-radius: 10px;
 }

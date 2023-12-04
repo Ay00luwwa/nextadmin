@@ -56,6 +56,6 @@
 }
 
 .logout:hover {
-  background-color: var(--light-gray);
+  background-color: var(--medium-gray);
   transition: 0.5s;
 }
