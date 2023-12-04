@@ -11,6 +11,12 @@
 .container:hover {
   background-color: var(--medium-gray);
   transition: 0.5s;
+  color: var(--white);
+}
+
+.container:hover .positive {
+  color: var(--white);
+  transition: 0.5s;
 }
 
 .texts {
