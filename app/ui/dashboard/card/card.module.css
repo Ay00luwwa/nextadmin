@@ -1,5 +1,5 @@
 .container {
-  background-color: var(--dark-gray);
+  background-color: var(--medium-gray);
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -9,8 +9,8 @@
 }
 
 .container:hover {
-  background-color: var(--medium-gray);
-  transition: 0.3s;
+  background-color: var(--dark-gray);
+  transition: 0.7s;
 }
 
 .texts {

@@ -4,7 +4,7 @@
 
 .menu {
   flex: 1;
-  background-color: var(--dark-gray);
+  background-color: var(--medium-gray);
   padding: 20px;
 }
 
