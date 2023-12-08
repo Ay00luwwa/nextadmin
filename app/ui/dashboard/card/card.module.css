@@ -15,7 +15,7 @@
 }
 
 .container:hover .positive {
-  color: var(--white);
+  color: black;
   transition: 0.5s;
 }
 

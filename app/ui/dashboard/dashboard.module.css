@@ -35,3 +35,8 @@
 .side {
   flex: 1;
 }
+
+.cojoined {
+  display: flex;
+  gap: 20px;
+}

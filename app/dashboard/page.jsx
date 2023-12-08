@@ -3,6 +3,8 @@ import Card from "../ui/dashboard/card/card";
 import Transactions from "../ui/dashboard/transactions/transactions";
 import styles from "../ui/dashboard/dashboard.module.css";
 import Chart from "../ui/dashboard/chart/chart";
+import Graph from "../ui/dashboard/graph/graph";
+import BarAnalysis from "../ui/dashboard/barAnalysis/barAnalysis";
 const Dashboard = () => {
   return (
     <div className={styles.content}>
@@ -13,8 +15,11 @@ const Dashboard = () => {
             <Card />
             <Card />
           </div>
-          <Transactions />
           <Chart />
+          <Transactions />
+          <div className={styles.cojoined}>
+            <Graph /> <BarAnalysis />
+          </div>
         </div>
         <div className={styles.side}>
           <Rightbar />
