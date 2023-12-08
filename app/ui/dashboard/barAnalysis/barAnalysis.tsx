@@ -16,45 +16,45 @@ import {
 
 const data = [
   {
-    name: "Page A",
-    uv: 4000,
-    pv: 2400,
+    name: "2006",
+    year: 4000,
+    sales: 2400,
     amt: 2400,
   },
   {
-    name: "Page B",
-    uv: 3000,
-    pv: 1398,
+    name: "2005",
+    year: 3000,
+    sales: 1398,
     amt: 2210,
   },
   {
-    name: "Page C",
-    uv: 2000,
-    pv: 9800,
+    name: "2004",
+    year: 2000,
+    sales: 9800,
     amt: 2290,
   },
   {
-    name: "Page D",
-    uv: 2780,
-    pv: 3908,
+    name: "2003",
+    year: 2780,
+    sales: 3908,
     amt: 2000,
   },
   {
-    name: "Page E",
-    uv: 1890,
-    pv: 4800,
+    name: "2002",
+    year: 1890,
+    sales: 4800,
     amt: 2181,
   },
   {
-    name: "Page F",
-    uv: 2390,
-    pv: 3800,
+    name: "2001",
+    year: 2390,
+    sales: 3800,
     amt: 2500,
   },
   {
-    name: "Page G",
-    uv: 3490,
-    pv: 4300,
+    name: "2000",
+    year: 3490,
+    sales: 4300,
     amt: 2100,
   },
 ];
@@ -62,7 +62,7 @@ const data = [
 const barAnalysis = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Expected Sales</h2>
+      <h2 className={styles.title}>Generated Revenue</h2>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}
@@ -81,13 +81,13 @@ const barAnalysis = () => {
           <Tooltip />
           <Legend />
           <Bar
-            dataKey="pv"
-            fill="#8884d8"
+            dataKey="sales"
+            fill="#008080"
             activeBar={<Rectangle fill="pink" stroke="blue" />}
           />
           <Bar
-            dataKey="uv"
-            fill="#82ca9d"
+            dataKey="year"
+            fill="#2ecc71"
             activeBar={<Rectangle fill="gold" stroke="purple" />}
           />
         </BarChart>

@@ -59,3 +59,10 @@
   background-color: var(--medium-gray);
   transition: 0.5s;
 }
+
+
+/* @media (max-width: 768px) {
+  .user {
+    flex-direction: row;
+  }
+} */

@@ -11,3 +11,8 @@
   color: var(--softer-text-color);
   margin-bottom: 20px;
 }
+
+
+@media (max-width: 667px) {
+  
+}
