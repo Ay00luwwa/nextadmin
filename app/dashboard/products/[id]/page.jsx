@@ -17,9 +17,9 @@ const SingleProductPage = () => {
           <input type="text" placeholder="Philip Plein" name="title" />
           <label>Price</label>
           <input
-            type="email"
-            placeholder="PhilipPlein@email.com"
-            name="email"
+            type="number"
+            placeholder="#4000"
+            name="price"
           />
           <label>Stock</label>
           <input type="number" placeholder="23" name="stock" />
