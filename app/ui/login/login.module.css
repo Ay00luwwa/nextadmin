@@ -10,6 +10,7 @@
   background-color: var(--light-gray);
   padding: 50px;
   border-radius: 10px;
+  align-items: center;
   width: 500px;
   height: 500px;
   display: flex;
@@ -20,7 +21,21 @@
 
 .form input {
   padding: 30px;
+  width: 100%;
   border: 1px solid var(--medium-gray);
   border-radius: 5px;
   background-color: var(--light-gray);
+}
+
+.form button {
+  background-color: var(--secondary-color);
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #16d465;
 }
