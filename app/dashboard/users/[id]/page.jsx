@@ -41,6 +41,7 @@ const SingleUserPage = () => {
             <option value={true}>Yes</option>
             <option value={false}>No</option>
           </select>
+          <button>Update</button>
         </form>
       </div>
     </div>
